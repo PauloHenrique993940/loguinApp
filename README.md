@@ -79,4 +79,4 @@ Alternativas
 Se você prefere ter mais controle sobre quais pacotes e ferramentas são incluídos, ou deseja começar com um projeto mais leve e configurado à medida que você progride, ferramentas como Vite ou até mesmo a criação manual de um projeto com Webpack podem ser alternativas interessantes. Essas ferramentas permitem que você escolha exatamente o que precisa, sem incluir dependências adicionais desnecessárias desde o início.
 
 Em resumo, embora CRA seja uma excelente ferramenta para iniciar rapidamente, a necessidade de baixar mais pacotes vem da modularidade e da necessidade de personalizar seu projeto conforme suas necessidades específicas.
->>>>>>> 88c7ed0f223f3575dd99e55a4bfb8ed4c19bbc41
+
