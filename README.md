@@ -34,5 +34,27 @@ Comando: npm run dev
 
 
 ![image](https://github.com/user-attachments/assets/08ab56c6-01b9-44eb-b4a2-443a48b7eb6f)
+#Atenção !
+Create React App (CRA) é uma ferramenta de inicialização que configura um projeto React com uma configuração padrão e tudo o que você precisa para começar a desenvolver imediatamente. Embora seja muito conveniente, existem algumas razões pelas quais você pode acabar baixando mais coisas depois de configurar um projeto com CRA:
 
+1. Modularidade e Personalização
+Componentes e Bibliotecas Adicionais: CRA fornece apenas o conjunto básico necessário para criar uma aplicação React. Se você quiser usar bibliotecas adicionais, como Material UI, Redux, ou outras ferramentas específicas, você precisará instalá-las separadamente.
 
+Fontes e Ícones: CRA não inclui por padrão fontes personalizadas (como Roboto) ou ícones (como os da biblioteca de ícones do Material UI). Esses recursos precisam ser baixados conforme a necessidade do projeto.
+
+2. Pacotes Essenciais não Inclusos
+Styling: CRA não inclui bibliotecas de estilo como Material UI, Bootstrap ou Tailwind CSS. Se você quiser usar essas ferramentas, precisará instalá-las.
+
+Gerenciamento de Estado: Ferramentas de gerenciamento de estado como Redux ou Context API não estão configuradas por padrão. Se você precisar delas, terá que instalá-las e configurá-las manualmente.
+
+3. Configuração Padrão Limitada
+CRA não é tudo: Apesar de ser uma ferramenta muito poderosa, CRA é projetado para fornecer um ambiente React padrão e não cobre todos os casos de uso possíveis. Qualquer funcionalidade que você precise além do básico (como animações, gráficos, manipulação de formulários avançada, etc.) geralmente exigirá pacotes adicionais.
+4. Atualizações e Manutenção
+Dependências Externas: Mesmo que CRA forneça uma configuração inicial, você ainda precisa manter e atualizar dependências externas, especialmente se estiver usando bibliotecas populares que evoluem rapidamente.
+5. Vantagens de CRA
+Rápido e Fácil: CRA permite que você inicie um projeto rapidamente sem se preocupar com a configuração de Webpack, Babel, ESLint, etc.
+Sem Configurações Complicadas: Você pode começar a codificar imediatamente sem se preocupar com arquivos de configuração complicados.
+Alternativas
+Se você prefere ter mais controle sobre quais pacotes e ferramentas são incluídos, ou deseja começar com um projeto mais leve e configurado à medida que você progride, ferramentas como Vite ou até mesmo a criação manual de um projeto com Webpack podem ser alternativas interessantes. Essas ferramentas permitem que você escolha exatamente o que precisa, sem incluir dependências adicionais desnecessárias desde o início.
+
+Em resumo, embora CRA seja uma excelente ferramenta para iniciar rapidamente, a necessidade de baixar mais pacotes vem da modularidade e da necessidade de personalizar seu projeto conforme suas necessidades específicas.
