@@ -33,3 +33,6 @@ Comando: npm run dev
 
 
 
+![image](https://github.com/user-attachments/assets/08ab56c6-01b9-44eb-b4a2-443a48b7eb6f)
+
+
