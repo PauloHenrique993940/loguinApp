@@ -1,24 +1,32 @@
-import { Button, Grid, TextField, Box, Checkbox, Typography } from "@mui/material";
+import {
+  Button,
+  Grid,
+  TextField,
+  Box,
+  Checkbox,
+  Typography,
+} from "@mui/material";
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
+
 
 function NewItemForm() {
   return (
-    <Box 
+    <Box
       sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
         padding: 3,
-        backgroundColor: '#ffffff',
+        backgroundColor: "#ffffff",
         borderRadius: 2,
         maxWidth: 600, // largura máxima para centralizar melhor
-        margin: '0 auto' // Centraliza o container horizontalmente
+        margin: "0 auto", // Centraliza o container horizontalmente
       }}
     >
-      <Box sx={{ mb: 3,
-         backgroundColor: '#681268',
-         borderRadius: 10,
-         
-       }}>
+      <Box sx={{ mb: 3, backgroundColor: "#681268", borderRadius: 10 }}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           height="48px"
@@ -40,27 +48,50 @@ function NewItemForm() {
           <TextField fullWidth label="Last Name *" variant="outlined" />
         </Grid>
       </Grid>
-      <Box sx={{ mt: 2, width: '100%' }}>
+      <Box sx={{ mt: 2, width: "100%" }}>
         <TextField fullWidth label="Email Address *" variant="outlined" />
       </Box>
-      <Box sx={{ mt: 2, width: '100%' }}>
-        <TextField fullWidth label="Password *" type="password" variant="outlined" />
+      <Box sx={{ mt: 2, width: "100%" }}>
+        <TextField
+          fullWidth
+          label="Password *"
+          type="password"
+          variant="outlined"
+        />
       </Box>
-      <Box sx={{ mt: 2, width: '100%', display: 'flex', alignItems: 'center' }}>
+      <Box sx={{ mt: 2, width: "100%", display: "flex", alignItems: "center" }}>
         <Checkbox />
         <Typography variant="body2" component="span" sx={{ ml: 2 }}>
-          I want to receive inspiration, marketing <br /> promotions, and updates via email.
+          I want to receive inspiration, marketing <br /> promotions, and
+          updates via email.
         </Typography>
       </Box>
-      <Box sx={{ mt: 3, width: '100%' }}>
+      <Box sx={{ mt: 3, width: "100%" }}>
         <Button variant="contained" size="large" fullWidth>
           Sign Up
         </Button>
+      </Box>
+      <Box sx={{ mt: 3, width: "100%" }}>
+        <Typography
+          variant="body2"
+          component="span"
+          color="primary"
+          sx={{ ml: 2 }}
+        >
+          <a href="#" className="Link1">
+            Already have an accout?Sign in
+          </a>
+        </Typography>
+      </Box>
+      <Box sx={{ mt: 3, display:"flex", width: "100%", justifyContent:"center" }}>
+        <Typography variant="body2"  sx={{ ml: 1 }}>
+          <span className="span">
+            Copyring © <a href="#" className="span">Your Website 2023</a>
+          </span>
+        </Typography>
       </Box>
     </Box>
   );
 }
 
 export default NewItemForm;
-
-

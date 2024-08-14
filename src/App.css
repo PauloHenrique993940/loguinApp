@@ -1,3 +1,4 @@
+
 .container{
     display: flex;
     align-items: center;
@@ -14,3 +15,15 @@
     
     
 }
+
+.Link1{
+    color: blue;
+    float: right;
+}
+
+
+.span{
+    text-align: center;
+    color: #141414;
+}
+
